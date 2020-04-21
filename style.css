@@ -313,6 +313,67 @@ header * {
     }
 }
 
+/*the sub-main starts here. It is placed just above the slider*/
+.sub-main {
+    width: 100%;
+    background-color: #051111;
+    display: block;
+    font-family: "Poppins", serif;
+
+}
+
+.sub-main h1 {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.sub-main .small-line {
+    padding-top: 0px;
+    margin: auto;
+    height: 5px;
+    width: 100px;
+    background: whitesmoke;
+
+}
+
+.sub-main .bigbox {
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    color: white;
+}
+
+.sub-main .bigbox .box {
+    padding: 10px 20px;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+.boxcontain{
+    display: flex;
+    justify-content: space-between;
+    background: #086b6e;
+    padding: 20px;
+}
+
+.linediv {
+    padding-top: 0px;
+    margin: auto;
+    height: 5px;
+    width: 100%;
+    background: #ff9800;
+}
+
+/*the sub-main stops here*/
+
+
 
 /*Slider styling below*/
 .post-slider {
@@ -501,3 +562,6 @@ header * {
         width: 100%;
     }
 }
+
+
+
